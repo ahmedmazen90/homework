@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxapplication18.FXML1Controller">
+   <children>
+      <Button fx:id="logoutid" layoutX="496.0" layoutY="55.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="87.0" style="-fx-background-color: orange;" text="Log out" textFill="#1a1757">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="convertid" layoutX="258.0" layoutY="316.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="77.0" style="-fx-background-color: #1a1757;" text="Convert" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="nisid" layoutX="350.0" layoutY="243.0" prefHeight="31.0" prefWidth="155.0" />
+      <TextField fx:id="usdid" layoutX="73.0" layoutY="243.0" prefHeight="31.0" prefWidth="155.0" />
+      <Label layoutX="275.0" layoutY="248.0" text="TO">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="416.0" layoutY="200.0" text="NIS" textFill="#1a1757">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="200.0" text="USD" textFill="#1a1757">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="49.0" prefHeight="31.0" prefWidth="243.0" text="Currency Conversion System" textFill="#1a1757">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

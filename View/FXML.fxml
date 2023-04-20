@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="726.0" prefWidth="463.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication18.FXMLController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="532.0" prefWidth="334.0">
+         <children>
+            <Pane layoutY="-13.0" prefHeight="726.0" prefWidth="448.0">
+               <children>
+                  <ImageView fitHeight="192.0" fitWidth="200.0" layoutX="135.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../Downloads/download.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="user" alignment="CENTER" layoutX="178.0" layoutY="360.0" prefHeight="21.0" prefWidth="100.0" text="User Name">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="passid" layoutX="135.0" layoutY="505.0" prefHeight="40.0" prefWidth="186.0" style="-fx-border-color: blue;" />
+                  <TextField fx:id="userid" layoutX="135.0" layoutY="407.0" prefHeight="40.0" prefWidth="186.0" style="-fx-border-color: blue;" />
+                  <Label fx:id="pasid" alignment="CENTER" layoutX="173.0" layoutY="474.0" prefHeight="25.0" prefWidth="100.0" text="Password">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnlogin" layoutX="196.0" layoutY="576.0" mnemonicParsing="false" onAction="#login" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: #0f056b;" text="Log in" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
